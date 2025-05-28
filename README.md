@@ -30,7 +30,7 @@ Here are some of the tools and technologies I work with:
   <p align="left">
     <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="GitHub Logo" width="35" height="35"/>
     <img src="https://code.visualstudio.com/favicon.ico" alt="VSCode Logo" width="35" height="35"/>
-    <img src="https://www.cleanpng.com/png-arduino-computer-software-library-electronics-ardu-5429688/" alt="Arduino IDE Logo" width="35" height="35"/>
+    <img src="https://www.arduino.cc/wiki/370832ed4114dd35d498f2f449b4781e/arduino.svg" alt="Arduino IDE Logo" width="35" height="35"/>
   </p>
 
 ## 🔗 Connect with Me
