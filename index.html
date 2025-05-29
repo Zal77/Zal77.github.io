@@ -1,125 +1,186 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portofolio - Rizal Fauzi</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      background: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background: #2c3e50;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    .profile-pic {
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      border-radius: 50%;
-      border: 4px solid white;
-      margin-bottom: 1rem;
-    }
-    section {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    h2 {
-      border-bottom: 2px solid #2c3e50;
-      padding-bottom: 0.5rem;
-    }
-    .project {
-      margin-bottom: 2rem;
-    }
-    .project img {
-      width: 100%;
-      max-width: 150px;
-      border-radius: 10px;
-      margin-top: 0.5rem;
-      margin-bottom: 0.5rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      justify-content: start;
-    }
-    .skills span {
-      display: inline-block;
-      background: #2c3e50;
-      color: white;
-      padding: 0.5rem 1rem;
-      border-radius: 20px;
-      margin: 0.3rem;
-    }
-    footer {
-      background: #2c3e50;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-    }
-    a {
-      color: #2c3e50;
-      text-decoration: none;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <img src="/assets/foto.png" alt="Foto Profil" class="profile-pic">
-    <h1>Rizal Fauzi</h1>
-    <p>Mobile Developer | Design UI/UX | Robotics Program | Internet of Things</p>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio - Rizal Fauzi</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        background: #f4f4f4;
+        color: #333;
+      }
+      header {
+        background: #2c3e50;
+        color: white;
+        padding: 2rem;
+        text-align: center;
+      }
+      .profile-pic {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 4px solid white;
+        margin-bottom: 1rem;
+      }
+      section {
+        padding: 2rem;
+        max-width: 800px;
+        margin: auto;
+      }
+      h1 {
+        border-bottom: 2px solid #2c3e50;
+        padding-bottom: 0.5rem;
+      }
+      h2 {
+        margin-top: 2em;
+      }
+      .project {
+        margin-bottom: 2em;
+      }
+      .project-images {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: flex-start;
+        margin-bottom: 1rem;
+      }
+      .project-images img {
+        height: 100%;
+        max-width: 250px;
+        min-width: 50px;
+        object-fit: cover;
+        border-radius: 20px;
+      }
+      .skills span {
+        display: inline-block;
+        background: #2c3e50;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        margin: 0.3rem;
+      }
+      footer {
+        background: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+      }
+      a {
+        color: #2c3e50;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="/assets/foto.png" alt="Foto Profil" class="profile-pic" />
+      <h1>Rizal Fauzi</h1>
+      <p>
+        Mobile Developer | Design UI/UX | Robotics Program | Internet of Things
+      </p>
+    </header>
 
-  <section id="tentang">
-    <h2>Tentang Saya</h2>
-    <p>Saya adalah lulusan Program Studi Teknik Informatika dari Politeknik Negeri Indramayu dengan minat besar pada dunia teknologi, khususnya di bidang Software Development, Robotic dan Internet of Things (IoT). Memiliki pengalaman dalam mengembangkan berbagai proyek berbasis perangkat lunak dan perangkat keras. Terampil dalam menggunakan berbagai tools seperti Arduino IDE, Visual Studio, Visual Studio Code, Figma, dan Android Studio. Selama masa studi, aktif mengikuti berbagai kompetisi nasional seperti GEMASTIK dan Kontes Robot Indonesia, yang mengasah kemampuan teknis serta kerja tim dalam lingkungan yang kompetitif dan inovatif.</p>
-  </section>
+    <section id="tentang">
+      <h1>Tentang Saya</h1>
+      <p>
+        Saya adalah lulusan Program Studi Teknik Informatika dari Politeknik
+        Negeri Indramayu dengan minat besar pada dunia teknologi, khususnya di
+        bidang Software Development, Robotic dan Internet of Things (IoT).
+        Memiliki pengalaman dalam mengembangkan berbagai proyek berbasis
+        perangkat lunak dan perangkat keras. Terampil dalam menggunakan berbagai
+        tools seperti Arduino IDE, Visual Studio, Visual Studio Code, Figma, dan
+        Android Studio. Selama masa studi, aktif mengikuti berbagai kompetisi
+        nasional seperti GEMASTIK dan Kontes Robot Indonesia, yang mengasah
+        kemampuan teknis serta kerja tim dalam lingkungan yang kompetitif dan
+        inovatif.
+      </p>
+    </section>
 
-  <section id="projek">
-    <h2>Proyek</h2>
-    <div class="project">
-      <h3>Binsmart</h3>
-      <img src="/assets/LoginBinsmart.jpg" alt="Binsmart Screenshot">
-      <img src="/assets/DashboardBinsmart.jpg" alt="Binsmart Screenshot">
-      <img src="/assets/ProfileBinsmart.jpg" alt="Binsmart Screenshot">
-      <p>Aplikasi monitoring data sampah di TPS dan TPA, dilengkapi fitur prediksi volume sampah</p>
-    </div>
-    <div class="project">
-      <h3>Robotics & IoT</h3>
-      <img src="/assets/alatIOT.jpg" alt="Robotic Screenshot">
-      <img src="/assets/Robotic.jpg" alt="IoT Screenshot">
-      <p>Memprogram robot dan merangkai alat IoT</p>
-    </div>
-  </section>
+    <section id="projek">
+      <h1>Proyek</h1>
+      <div class="project">
+        <h2>Application Framework Flutter(GetX)</h2>
+        <div class="project-images">
+          <img src="/assets/LoginBinsmart.jpg" alt="Binsmart Screenshot" />
+          <img src="/assets/DashboardBinsmart.jpg" alt="Binsmart Screenshot" />
+          <img src="/assets/ProfileBinsmart.jpg" alt="Binsmart Screenshot" />
+        </div>
+        <div class="project-images">
+          <img src="/assets/step_1.jpg" alt="Ospro Nawakara" />
+          <img src="/assets/step_2.jpg" alt="Ospro Nawakara" />
+          <img src="/assets/step_3.jpg" alt="Ospro Nawakara" />
+        </div>
+        <div class="project-images">
+          <img src="/assets/home_binding.jpg" alt="Oslog Vendor Binding" />
+          <img src="/assets/history_binding.jpg" alt="Oslog Vendor Binding" />
+        </div>
+      </div>
+      <div class="project">
+        <h2>Design UI/UX</h2>
+        <div class="project-images">
+          <img src="/assets/figma1.jpg" alt="BRITAMA" />
+          <img src="/assets/figma2.jpg" alt="BRITAMA" />
+          <img src="/assets/figma3.jpg" alt="BRITAMA" />
+        </div>
+        <div class="project-images">
+          <img src="/assets/figma4.jpg" alt="Lenta" />
+          <img src="/assets/figma5.jpg" alt="Lenta" />
+          <img src="/assets/figma6.jpg" alt="Lenta" />
+        </div>
+      </div>
+      <div class="project">
+        <h2>Robotics & IoT</h2>
+        <div class="project-images">
+          <img src="/assets/alatIOT.jpg" alt="Robotic Screenshot" />
+          <img src="/assets/Robotic.jpg" alt="IoT Screenshot" />
+        </div>
+      </div>
+    </section>
 
-  <section id="skills">
-    <h2>Keahlian</h2>
-    <div class="skills">
-      <span>Flutter</span>
-      <span>Dart</span>
-      <span>Laravel</span>
-      <span>Php</span>
-      <span>Design UI/UX</span>
-      <span>IoT</span>
-    </div>
-  </section>
+    <section id="skills">
+      <h2>Keahlian</h2>
+      <div class="skills">
+        <span>Flutter</span>
+        <span>Dart</span>
+        <span>Laravel</span>
+        <span>Php</span>
+        <span>Design UI/UX</span>
+        <span>IoT</span>
+        <span>Robotic Program</span>
+        <span>Python</span>
+      </div>
+    </section>
 
-  <section id="kontak">
-    <h2>Kontak</h2>
-    <p>Email: <a href="rizalfauzi7704@gmail.com" target="_blank">rizalfauzi7704@email.com</p>
-    <p>GitHub: <a href="https://github.com/zal77" target="_blank">Github/zal77</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/rizal-fauzi" target="_blank">LinkedIn/Rizal-Fauzi</a></p>
-  </section>
+    <section id="kontak">
+      <h2>Kontak</h2>
+      <p>
+        Email:
+        <a href="mailto:rizalfauzi7704@gmail.com" target="_blank"
+          >rizalfauzi7704@email.com</a
+        >
+      </p>
+      <p>
+        GitHub: <a href="https://github.com/zal77" target="_blank">Zal77</a>
+      </p>
+      <p>
+        LinkedIn:
+        <a href="https://linkedin.com/in/rizal-fauzi" target="_blank"
+          >Rizal Fauzi</a
+        >
+      </p>
+      <p>
+        Whatsapp:
+        <a href="https://wa.me/+6281394105271" target="_blank">081394105271</a>
+      </p>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 Rizal Fauzi</p>
-  </footer>
-</body>
+    <footer>
+      <p>&copy; 2025 Rizal Fauzi</p>
+    </footer>
+  </body>
 </html>
